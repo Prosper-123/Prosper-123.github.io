@@ -6,3 +6,65 @@ body  {
     background-color: #f5f5f5;
     margin: 0;
 }
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: green;
+}
+
+img {
+    float: right;
+}
+
+.contacts {
+    margin-top: 0px;
+    color: white;
+    background-color: navy;
+    border: 1px solid black;
+    display: flex;
+}
+
+.contact {
+    flex: 0.5;
+    padding: 10px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.header {
+    flex: 1;
+    padding: 10px;
+    color: white;
+    background-color: skyblue;
+}
+
+.section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer {
+    color: white;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.background {
+    opacity: 0.5;
+}
+
+.footer p {
+    text-align: center;
+}
