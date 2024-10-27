@@ -7,6 +7,46 @@ body  {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column; /* Stack nav items vertically on small screens */
+        padding: 0; /* Adjust padding if needed */
+    }
+
+    .image {
+        width: 100%; /* Ensure images are responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
+.nav {
+    text-align: center; /* Centers the text inside the nav */
+    margin: 20px;
+}
+
+.nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav li {
+    display: inline; /* Keeps items in a single line */
+    margin: 0 15px; /* Adds space between menu items */
+}
+
+
+.Degree {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Degree img {
+    align-items: center;
+}
+
+
 h2 {
     color: green;
 }
@@ -66,5 +106,6 @@ img {
 }
 
 .footer p {
+    clear: both;
     text-align: center;
 }
